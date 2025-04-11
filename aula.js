@@ -19,6 +19,27 @@ function mostrarMensagem() {
 
 //7-  Crie uma função chamada multiplicar que receba dois números como argumentos e retorne o resultado da multiplicação.
 
-function multiplicar(){
-    return
+function multiplicar(a, b) {
+  return a * b;
 }
+
+//8- O que acontece se chamarmos uma função antes de declará-la? Teste e explique o seguinte código:
+
+// resposta:
+
+// Ela funciona normalmente
+
+
+dizerOi();
+
+function dizerOi() {
+  console.log("Oi!");
+}
+
+
+//9-  A função abaixo está com problema. Ela deveria retornar o valor 10, mas não retorna nada. Corrija-a:
+
+function calcularSoma(x, y) {
+  return x + y;
+}
+
